@@ -565,8 +565,8 @@ InfoMap.view = {
 				.then(function(res){
 					data.custom_fields = JSON.stringify(custom_fields)
 					$.ajax({
-						url: "//241ea74b548170e1e1ce7288c4a5022fdf6d9eef.cloudapp.appcelerator.com/manager/event/create",
-						// url: "//192.168.56.101:1234/manager/event/create",
+						url: "//aed-manager.herokuapp.com/manager/event/create",
+						// url: "//192.168.0.37:3003/manager/event/create",
 						type: "POST",
 						data: data
 					})
